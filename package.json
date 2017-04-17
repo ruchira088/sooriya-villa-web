@@ -1,6 +1,6 @@
 {
   "name": "sooriya-villa-web",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Front-end for sooriyavilla.com",
   "main": "index.js",
   "scripts": {
