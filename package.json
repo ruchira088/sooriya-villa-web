@@ -2,15 +2,17 @@
   "name": "sooriya-villa-web",
   "version": "0.0.3",
   "description": "Front-end for sooriyavilla.com",
-  "main": "index.js",
+  "main": "./server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build; node .",
     "build": "webpack --progress --colors",
     "dev": "webpack-dev-server --content-base public/ --inline --hot --history-api-fallback --port 8000 --host 0.0.0.0"
   },
   "author": "Ruchira Jayasekara <ruchira088@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.15.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
