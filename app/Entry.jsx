@@ -3,7 +3,7 @@ import ReactDOM from "react-dom"
 
 const Hello = () => (
     <div>
-        FooBar
+        Hello, how are you ?
     </div>
 )
 
